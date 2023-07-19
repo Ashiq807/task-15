@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+.item{
+    border: 2px solid white;
+    overflow: hidden;
+}
+.item img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.animation1:hover{
+    transform: scaleX(-1);
+    transition: all 2s;
+}
+.animation2 img:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.animation3:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
